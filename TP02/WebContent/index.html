@@ -1,0 +1,27 @@
+<!-- Nome do aluno: Gabriel Martins Alves da Silva - CB3021521 -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>TP02</title>
+		<style>body {font-family: sans-serif}</style>
+	</head>
+	<body>
+		<h1>Cadastro de Produtos - IFSP ADS 571 2.0v</h1>
+		<form action="SaveProdutosServlet" method="post" style="background-color: #232323; padding:1em;">
+			<table style="color: white; font-weight: bold">
+				<tr><td>Nome do Produto:</td><td><input type='text' name='nome'/></td></tr>
+				<tr><td>Unidades p/ Compra:</td><td><input type='text' name='unidadecompra'/></td></tr>
+				<tr><td>Descrição:</td><td><input type='text' name='descricao'/></td></tr>
+				<tr><td>Qtd. de compras mensais prevista:</td><td><input type='text' name='qtdprevistomes'/></td></tr>
+				<tr><td>Preço Máx. Comprado:</td><td><input type='text' name='precomaxcomprado'/></td></tr>
+				<tr><td colspan="2" style="padding-top:1em"><input type="submit" value="Salvar produto" style="padding: 1em; border-radius: 1em; background-color: #48cae4; color: white"/></td></tr>
+			</table>
+		</form>
+		<br/>
+		<a href="ViewProdutosServlet">Clique aqui para acessar na lista de produtos.</a>
+		<br/><br/><br/><br/>
+		<a style="font-size: 1.5em" href="creditos.html">Créditos</a>
+	</body>
+</html>
